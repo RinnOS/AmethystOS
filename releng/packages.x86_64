@@ -1,3 +1,7 @@
+#################
+#### ARCHISO ####
+#################
+
 alsa-utils
 amd-ucode
 arch-install-scripts
@@ -16,7 +20,6 @@ cryptsetup
 darkhttpd
 ddrescue
 dhclient
-dhcpcd
 diffutils
 dmidecode
 dmraid
@@ -130,6 +133,12 @@ xfsprogs
 xl2tpd
 zsh
 
+####################
+#### AMETHYSTOS ####
+####################
+
+gparted
+
 archlinux-keyring
 
 firefox
@@ -138,11 +147,10 @@ git-lfs
 github-cli
 gnome-disk-utility
 kitty
-ttf-nerd-fonts-symbols
-networkmanager
+#networkmanager
+#network-manager-applet
 wl-clipboard
 btop
-ttf-font-awesome
 code
 ntfs-3g
 kitty
@@ -155,37 +163,28 @@ base-devel
 
 sddm
 
-bluedevil
-breeze-gtk
-discover
-drkonqi
-kde-gtk-config
-kdeplasma-addons
-kgamma
-kinfocenter
-kscreen
-ksshaskpass
-kwallet-pam
-kwrited
-ocean-sound-theme
-oxygen
-oxygen-sounds
-plasma-browser-integration
-plasma-desktop
-plasma-disks
-plasma-firewall
-plasma-nm
-plasma-pa
-plasma-systemmonitor
-plasma-thunderbolt
-plasma-vault
-plasma-welcome
-plasma-workspace-wallpapers
-powerdevil
-print-manager
-sddm-kcm
-xdg-desktop-portal-kde
-flatpak-kcm
+wayland
+wayland-utils
+xorg-xwayland
 
-plasma-meta
-kde-applications-meta
+#### PLASMA
+plasma-desktop
+plasma-workspace
+kscreen
+xdg-desktop-portal-kde
+sddm-kcm
+plasma-pa
+kinfocenter
+plasma-nm
+print-manager
+dolphin
+kate
+konsole
+
+#kdeplasma-addons
+#plasma-browser-integration
+#plasma-systemmonitor
+
+#### FONTS
+ttf-font-awesome
+ttf-nerd-fonts-symbols
