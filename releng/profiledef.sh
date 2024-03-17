@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="EternalOS"
-iso_label="EternalOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_name="AmethystOS"
+iso_label="AmethystOS$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
 iso_publisher="Rinnray <https://rinnray.dev>"
-iso_application="EternalOS Live ISO"
+iso_application="AmethystOS Live ISO"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
 buildmodes=('iso')

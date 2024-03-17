@@ -1,6 +1,6 @@
-NAME="EternalOS"
-PRETTY_NAME="EternalOS"
-ID=eternalos
+NAME="AmethystOS"
+PRETTY_NAME="AmethystOS"
+ID=amethystos
 BUILD_ID=rolling
 ANSI_COLOR="38;2;23;147;209"
 HOME_URL="https://archlinux.org/"
