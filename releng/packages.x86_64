@@ -155,6 +155,7 @@ code
 ntfs-3g
 kitty
 neofetch
+meld
 
 blueman
 bluez
@@ -180,6 +181,7 @@ print-manager
 dolphin
 kate
 konsole
+spectacle
 
 #kdeplasma-addons
 #plasma-browser-integration
