@@ -1,0 +1,18 @@
+[Desktop Entry]
+Category=Utility;
+Comment[en_US]=Installer for AmethystOS
+Comment=Installer for AmethystOS
+Exec=pkexec /usr/bin/calamares
+GenericName[en_US]=
+GenericName=
+Icon=calamares
+MimeType=
+Name[en_US]=Install AmethystOS
+Name=Install AmethystOS
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

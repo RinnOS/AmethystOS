@@ -241,9 +241,12 @@ ttf-font-awesome
 ttf-nerd-fonts-symbols
 noto-fonts-emoji
 
+#calamares-git
+
 dbus-broker-units
 pipewire-jack
 gnu-free-fonts
 qt6-multimedia-ffmpeg
 ckbcomp
-calamares-git
+calamares
+aos-calamares-config
