@@ -20,6 +20,7 @@ cryptsetup
 darkhttpd
 ddrescue
 dhclient
+dhcpcd
 diffutils
 dmidecode
 dmraid
@@ -137,26 +138,20 @@ zsh
 #### AMETHYSTOS ####
 ####################
 
-gparted
 
+
+#### GETS REMOVED AFTER CALAMARES ####
+gparted
+ckbcomp
+calamares
+aos-calamares-config
+
+#### STAYS ####
 archlinux-keyring
 
-firefox
-git
-git-lfs
-github-cli
-gnome-disk-utility
-kitty
-#networkmanager
-#network-manager-applet
-wl-clipboard
 btop
-code
 ntfs-3g
-kitty
-neofetch
 meld
-libreoffice-fresh
 
 blueman
 bluez
@@ -237,16 +232,14 @@ spectacle
 #dosbox
 
 #### FONTS
+ttf-noto-nerd
+noto-fonts
+noto-fonts-emoji
+ttf-roboto
 ttf-font-awesome
 ttf-nerd-fonts-symbols
-noto-fonts-emoji
-
-#calamares-git
 
 dbus-broker-units
 pipewire-jack
 gnu-free-fonts
 qt6-multimedia-ffmpeg
-ckbcomp
-calamares
-aos-calamares-config
