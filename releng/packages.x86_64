@@ -148,6 +148,7 @@ aos-calamares-config
 
 #### STAYS ####
 archlinux-keyring
+aos-keyring
 
 btop
 ntfs-3g

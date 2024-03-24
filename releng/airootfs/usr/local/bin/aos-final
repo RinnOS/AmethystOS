@@ -1,0 +1,30 @@
+#!/bin/bash
+
+rm /etc/sudoers.d/g_wheel
+rm /etc/systemd/system/etc-pacman.d-gnupg.mount
+rm /etc/initcpio
+rm /etc/skel/Desktop/calamares.desktop
+rm /etc/xdg/autostart/calamares-amethystos.desktop
+rm -rf /etc/systemd/system/getty@tty1.service.d
+
+rm /root/.automated_script.sh
+rm /root/.zlogin
+
+for i in `ls /home/`; do rm -rf /home/$i/*/calamares.desktop || exit 0; done
+
+chmod 750 /etc/sudoers.d
+chmod 750 /etc/polkit-1/rules.d"
+chgrp polkitd /etc/polkit-1/rules.d
+
+echo 'AmethystOS' > /etc/hostname"
+
+cp /etc/os-release /usr/lib/os-release
+
+cat > lsb-release << EOF
+DISTRIB_ID="AmethystOS"
+DISTRIB_RELEASE="rolling"
+DISTRIB_DESCRIPTION="AmethystOS"
+EOF
+
+# DONE VERY LAST
+rm /usr/local/bin/aos-final

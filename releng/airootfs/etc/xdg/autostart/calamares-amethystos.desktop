@@ -2,7 +2,7 @@
 Category=Utility;
 Comment[en_US]=Installer for AmethystOS
 Comment=Installer for AmethystOS
-Exec=pkexec /usr/bin/calamares
+Exec=pkexec /usr/bin/calamares -d
 GenericName[en_US]=
 GenericName=
 Icon=calamares
