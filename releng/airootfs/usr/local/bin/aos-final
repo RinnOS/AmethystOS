@@ -20,11 +20,15 @@ echo 'AmethystOS' > /etc/hostname"
 
 cp /etc/os-release /usr/lib/os-release
 
-cat > lsb-release << EOF
-DISTRIB_ID="AmethystOS"
-DISTRIB_RELEASE="rolling"
-DISTRIB_DESCRIPTION="AmethystOS"
-EOF
+mv /etc/aos-release /etc/lsb-release
+
+cp -aT /etc/skel/ /root/
+
+#cat > lsb-release << EOF
+#DISTRIB_ID="AmethystOS"
+#DISTRIB_RELEASE="rolling"
+#DISTRIB_DESCRIPTION="AmethystOS"
+#EOF
 
 # DONE VERY LAST
 rm /usr/local/bin/aos-final
