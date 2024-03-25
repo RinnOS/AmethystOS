@@ -132,7 +132,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
-zsh
+#zsh
 
 ####################
 #### AMETHYSTOS ####
@@ -149,6 +149,8 @@ aos-calamares-config
 #### STAYS ####
 archlinux-keyring
 aos-keyring
+
+fish
 
 btop
 ntfs-3g
